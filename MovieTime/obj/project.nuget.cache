@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NlXF0RclfhIFYxNuGV7VrY+46AYntwsMvkYw4dixsR9xapsEwA3Bj4rlOMkeNthUQx7Wu3f9/OhMz44FMeWS4w==",
+  "dgSpecHash": "in2CMJwDuk2S8mIMg1VaRv5fcCGTfH8BBAPkNCyCmIHX5RMdMNdEZkI5hEHnAPQC8NuvLsUqvp4rrZCtozCfcA==",
   "success": true,
   "projectFilePath": "/workspace/UIAppMovieTime/MovieTime/MovieTime.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/home/gitpod/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "/home/gitpod/.nuget/packages/microsoft.extensions.http/7.0.0/microsoft.extensions.http.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",

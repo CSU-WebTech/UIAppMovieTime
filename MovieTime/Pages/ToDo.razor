@@ -1,37 +1,38 @@
 ﻿@using MovieTime.Models;
 @page "/todo"
 
+
 <PageTitle>
-My To Do List 
+My To Do List
 </PageTitle>
 
 <h1>To do</h1>
-
-<h3>This is a list of my to do items. </h3>
-<p>you currently have @todoList.Count(todo => !todo.Done) items left to do!</p>
-
-<p>you have completed @todoList.Count(todo => todo.Done) items!</p>
-
+<h3> This is list of my to do items.</h3>
+<p> You currently have @todoList.Count(todo=> !todo.Done) items left to do!</P>
+<p> You have completed @todoList.Count(todo=>todo.Done) items!</p>
 <ul>
-@foreach (var todo in todoList){
-    <li>
-        <input type="checkbox" @bind="todo.Done"/>
-         @todo.Item
-    </li>
-}
+    @foreach (var todo in todoList){ 
+        <li>
+           <input type="checkbox" @bind="todo.Done"/>
+           @todo.Item
+        </li>
+        }
 </ul>
 
 <input placeholder="Add task" @bind="newTodo"/>
 <button @onclick="Add">Add</button>
-
 @code {
-    private List<TodoItem> todoList = new();
-    private string? newTodo;
-    private void Add(){
+     private List<TodoItem> todoList = new();
+     private string? newTodo;
+     private void Add(){
         if(!string.IsNullOrWhiteSpace(newTodo)){
-            todoList.Add(new TodoItem {Item = newTodo });
+            todoList.Add(new TodoItem {Item = newTodo});
             newTodo = string.Empty;
         }
+     }
 
-    }
 }
+
+
+    
+       

@@ -826,3 +826,7 @@
 /workspace/UIAppMovieTime/MovieTime/obj/Debug/net7.0/refint/MovieTime.dll
 /workspace/UIAppMovieTime/MovieTime/obj/Debug/net7.0/MovieTime.pdb
 /workspace/UIAppMovieTime/MovieTime/obj/Debug/net7.0/ref/MovieTime.dll
+/workspace/UIAppMovieTime/MovieTime/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll
+/workspace/UIAppMovieTime/MovieTime/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll.gz
+/workspace/UIAppMovieTime/MovieTime/bin/Debug/net7.0/Microsoft.Extensions.Http.dll
+/workspace/UIAppMovieTime/MovieTime/obj/Debug/net7.0/build-gz/xV7dP+w3.gz
