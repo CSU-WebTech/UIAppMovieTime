@@ -3,19 +3,19 @@ using System.Text.Json.Serialization;
 namespace MovieTime.Models;
 
 public record NasaResponse{
-        [JsonPropertyName("copyright")]
-        public string copyright {get; init;}
+        [JsonPropertyName("Title")]
+        public string title {get; init;}
 
-        [JsonPropertyName("date")]
+        [JsonPropertyName("Year")]
         public string date {get; init;}
         
-        [JsonPropertyName("explanation")]
+        [JsonPropertyName("Plot")]
         public string explanation {get; init;}
         
         [JsonPropertyName("hdurl")]
         public string hdurl {get; init;}
 
-        [JsonPropertyName("url")]
+        [JsonPropertyName("Poster")]
         public string url {get; init;}
         
         [JsonPropertyName("media_type")]
@@ -24,7 +24,7 @@ public record NasaResponse{
         [JsonPropertyName("service_version")]
         public string serviceVersion {get; init;}
         
-        [JsonPropertyName("title")]
-        public string title {get; init;}
+        [JsonPropertyName("copyright")]
+        public string copyright {get; init;}
 }
 

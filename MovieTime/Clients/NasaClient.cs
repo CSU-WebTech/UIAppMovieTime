@@ -9,11 +9,11 @@ public class NasaClient{
         _client=client;
     }
 public async Task<NasaResponse> GetNasa(string date){
-    var url = "https://api.nasa.gov/planetary/apod?api_key=8gWfQi3EmW5RUs3ffciAZQNhMcsVHFXXGodmIpQg";
-if(date != null){
- url += "&date=" + date;
-}
+    var url = "https://www.omdbapi.com/?apikey=5e247ff4";
 
+if(date != null){
+ url += "&t=" + date;
+}
     return await _client.GetFromJsonAsync<NasaResponse>(url);
 }
 }
