@@ -1,7 +1,31 @@
 ﻿
-<div class="top-row ps-3 navbar navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+                <div class="container px-5">
+                <NavLink  href="Trending" Match="NavLinkMatch.All">
+                    <span class="navbar-brand" href="#page-top">Start Bootstrap</span>
+                </NavLink>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <NavLink  href="Trending" Match="NavLinkMatch.All">
+                                    <span class="nav-link">Trending</span>
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink  href="SearchMovie" Match="NavLinkMatch.All">
+                                    <span class="nav-link" href="#SearchMovie">SearchMovie</span>
+                                 </NavLink>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+<!-- <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">First App </a>
+        <a class="navbar-brand" href="">Movie Time </a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +68,7 @@
                 <button class="btn btn-primary" @onclick="onLogOut">Logout</button>
             </AuthorizeView>
     </nav>
-</div>
+</div> !-->
 
 @code {
     private bool collapseNavMenu = true;
@@ -59,4 +83,4 @@
     private void onLogOut(){
         
     }
-}
+} 

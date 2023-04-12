@@ -73,10 +73,6 @@
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/sample-data/weather.json",
-      "PackagePath": "staticwebassets/sample-data/weather.json"
-    },
-    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.MovieTime.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

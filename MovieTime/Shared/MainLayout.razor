@@ -1,17 +1,15 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
+<div id="page-top">
         <NavMenu />
-    </div>
+    
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+    
+ @Body
+       
+    <footer class="py-5 bg-black">
+            <div class="container px-5">
+                <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p>
+            </div>
+    </footer>
 </div>

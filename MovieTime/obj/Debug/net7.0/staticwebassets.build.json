@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I4I45HHsdzqDFTkNEz1mOoAuonOjYqCHFXyJskBbAKM=",
+  "Hash": "TfSQUw5c0nGYKIi7UJpckx6QU9xam/g4OTZu5JBdk+g=",
   "Source": "MovieTime",
   "BasePath": "/",
   "Mode": "Root",
@@ -7189,23 +7189,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
-    },
-    {
-      "Identity": "/workspace/UIAppMovieTime/MovieTime/wwwroot/sample-data/weather.json",
-      "SourceId": "MovieTime",
-      "SourceType": "Discovered",
-      "ContentRoot": "/workspace/UIAppMovieTime/MovieTime/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     }
   ]
 }
