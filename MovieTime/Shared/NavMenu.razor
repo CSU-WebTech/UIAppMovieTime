@@ -1,8 +1,8 @@
 ﻿
 <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
                 <div class="container px-5">
-                <NavLink  href="Trending" Match="NavLinkMatch.All">
-                    <span class="navbar-brand" href="#page-top">Start Bootstrap</span>
+                <NavLink  href="/" Match="NavLinkMatch.All">
+                    <span class="navbar-brand">Movie Time</span>
                 </NavLink>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -20,56 +20,7 @@
                             
                         </ul>
                     </div>
-                </div>
-            </nav>
-
-<!-- <div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">Movie Time </a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
-
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </div>
-        <AuthorizeView Roles="admin">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="todo">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> To do
-            </NavLink>
-        </div>
-        </AuthorizeView>
-        <AuthorizeView Roles="user">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="nasa-apod">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Nasa APOD
-            </NavLink>
-        </div>
-        </AuthorizeView>
-            <AuthorizeView>
-
-                <button class="btn btn-primary" @onclick="onLogOut">Logout</button>
-            </AuthorizeView>
-    </nav>
-</div> !-->
-
+                </div> </nav>
 @code {
     private bool collapseNavMenu = true;
 

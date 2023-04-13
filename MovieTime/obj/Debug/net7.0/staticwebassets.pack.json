@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/MovieTime.styles.css"
     },
     {
+      "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/Images/Image1.jpeg",
+      "PackagePath": "staticwebassets/Images/Image1.jpeg"
+    },
+    {
+      "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/Images/Image2.jpeg",
+      "PackagePath": "staticwebassets/Images/Image2.jpeg"
+    },
+    {
+      "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/Images/Image3.jpeg",
+      "PackagePath": "staticwebassets/Images/Image3.jpeg"
+    },
+    {
       "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
