@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
+      "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/css/stylesheet.css",
+      "PackagePath": "staticwebassets/css/stylesheet.css"
+    },
+    {
       "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
@@ -83,6 +87,10 @@
     {
       "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/mytest.html",
+      "PackagePath": "staticwebassets/mytest.html"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.MovieTime.Microsoft.AspNetCore.StaticWebAssets.props",
