@@ -1,145 +1,482 @@
 ﻿@page "/trending"
-
-
-
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+	  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
+     <link href="/css/stylesheet.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     
-</head>
-
-<body>
-	<div id="content">
-		<div class="container p-5"> 
-		
-			<header>
-				<h5> Trending Now</h5>
-			</header>   
-
-			<div class="multiple-card-slider">
-				<div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel">
-  					<div class="carousel-inner">
-    					<div class="carousel-item active">
-							<div class="cards-wrapper"> 
-	 							<div class="card" style="width: 10rem;" >
-									<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/191/Kesariya-From-Brahmastra-Hindi-2022-20220717092820-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-									<div class="card-body">
-    									<h5 class="card-title">Kesariya</h5>
-  		    						</div>
-								</div> 
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/525/English-Vinglish-Hindi-2012-20221012225710-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Gustakh Dil</h5>
-  		    						</div>
-		  						</div> 
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/815/Bhediya-Hindi-2022-20221206124543-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Bhediya</h5>
-  		    						</div>
-		  						</div> 
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/338/CANDY-Hindi--Hindi-2022-20220228174116-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Candy</h5>
-  		    						</div>
-		  						</div> 
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/460/Pushpa-The-Rise-Part-01-Hindi-2021-20211216071001-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Pushpa</h5>
-  		   							</div>
-								</div> 
-    						</div>
-   						</div>
-    					<div class="carousel-item">
-      						<div class="cards-wrapper">
-	 							<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/621/Filhaal2-Mohabbat-Hindi-2021-20220729115241-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Filhaal</h5>
-  		  							</div>
-								</div> 
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/991/Major-Hindi-2022-20220606095932-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Major</h5>
-  		   							</div>
-								</div> 
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/195/MP3-Hindi-2016-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Bali</h5>
-  		  							</div>
-								</div>
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/929/Shayad-From-Love-Aaj-Kal--Hindi-2020-20200122112631-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Shared</h5>
-  		    						</div>
-								</div>
-								<div class="card" style="width: 10rem;">
-  		  							<div class="image wrapper">
-  		  								<img src="https://c.saavncdn.com/347/Baarish-Ban-Jaana-Hindi-2021-20210601053345-500x500.jpg" alt="Card image cap" style="width: 10rem;">
-		 							</div>
-  		   							<div class="card-body">
-    									<h5 class="card-title">Baarish</h5>
-  		    						</div>
-								</div>
-    						</div>
-    					</div>
-						<a class="carousel-control-prev" data-bs-target="#carouselExampleControls" role="button" data-bs-slide="prev" >
-    						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    						<span class="sr-only">Previous</span>
-  						</a>
-  						<a class="carousel-control-next" data-bs-target="#carouselExampleControls" role="button" data-bs-slide="next">
-    						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    						<span class="sr-only">Next</span>
-  						</a>
-					</div>
-				</div>
-			</div>
-
-			
-			
+  </head>
+  <body>
 
 
+<div id="content">
+    <div class="container p-5"> 
+<header>
+<h5> Trending Now</h5>
+</header>   
+<div class="multiple-card-slider">
+<div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	<div class="cards-wrapper" display: flex> 
+	 	<div class="card" style="width: 10rem;" >
+		<div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/191/Kesariya-From-Brahmastra-Hindi-2022-20220717092820-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+		<div class="card-body">
+    			<h5 class="card-title">Kesariya</h5>
+  		    </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/525/English-Vinglish-Hindi-2012-20221012225710-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Gustakh Dil</h5>
+  		    </div>
 
+		  </div> 
 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/815/Bhediya-Hindi-2022-20221206124543-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Bhediya</h5>
+  		    </div>
+		  </div> 
 
-
-
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/338/CANDY-Hindi--Hindi-2022-20220228174116-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Candy</h5>
+  		    </div>
+		  </div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/460/Pushpa-The-Rise-Part-01-Hindi-2021-20211216071001-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Pushpa</h5>
+  		   </div>
+		</div> 
+    	</div>
+   </div>
+    <div class="carousel-item active">
+      <div class="cards-wrapper" display: flex>
+	 <div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/621/Filhaal2-Mohabbat-Hindi-2021-20220729115241-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Filhaal</h5>
+  		  </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/991/Major-Hindi-2022-20220606095932-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Major</h5>
+  		   </div>
+		</div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/195/MP3-Hindi-2016-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Bali</h5>
+  		  </div>
 		</div>
-	</div>
-</body> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/929/Shayad-From-Love-Aaj-Kal--Hindi-2020-20200122112631-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Shared</h5>
+  		    </div>
+		</div>
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/347/Baarish-Ban-Jaana-Hindi-2021-20210601053345-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Baarish</h5>
+  		    </div>
+		</div>
 
+    	</div>
+    </div>
+<a class="carousel-control-prev" data-bs-target="#carouselExampleControls" role="button" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" data-bs-target="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
 
+<header>
+<h5> Top Charts</h5>
+</header>
+<div class="multiple-card-slider">
+<div id="carouselExampleControls2" class="carousel carousel-dark slide" data-ride="carousel">
+  <div class="carousel-inner">
 	
+    <div class="carousel-item active">
+	<div class="cards-wrapper"> 
+	 	<div class="card" style="width: 10rem;" >
+		<div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/033/Top-20-Hit-Songs-Happy-New-Year-2022-Hindi-2021-20211230181001-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+		<div class="card-body">
+    			<h5 class="card-title">Top 20</h5>
+  		    </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="http://c.saavncdn.com/754/Top-20-Romantic-Songs-2018-Hindi-2018-20181226104238-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Romantic</h5>
+  		    </div>
+
+		  </div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/908/Top-20-Most-Viewed-Songs-Of-The-Decade-2010-2019--Hindi-2020-20200206094000-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Most Viewed</h5>
+  		    </div>
+		  </div> 
+
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/822/Top-Bollywood-Movie-Songs-Of-2021-Hindi-2021-20210618151000-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Top 10</h5>
+  		    </div>
+		  </div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/505/Bollywood-Top-10-The-Best-Hindi-Songs-Ever--Hindi-2018-20181204140117-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Bollywood Top 10</h5>
+  		   </div>
+		</div> 
+    	</div>
+   </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+	 <div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/747/Top-20-Bollywood-Dance-Songs-2018-Hindi-2018-20181226104207-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Dance Top 20</h5>
+  		  </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/935/Most-Viewed-Hindi-Songs-2020-Hindi-2020-20200625064000-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Most Viewed 2020</h5>
+  		   </div>
+		</div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/543/Best-Of-90-s-Bollywood-Romantic-2013-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Romantic Hits</h5>
+  		  </div>
+		</div>
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="http://c.saavncdn.com/721/Top-20-Bollywood-Hits-2013-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Bollywood Hits</h5>
+  		    </div>
+		</div>
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/194/Top-Trending-T-Series-Youtube-Songs-2021-Hindi-2021-20210917191001-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Top Trending</h5>
+  		    </div>
+		</div>
+
+    	</div>
+    </div>
+
+<a class="carousel-control-prev" data-bs-target="#carouselExampleControls2" role="button" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" data-bs-target="#carouselExampleControls2" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
 
 
+<header>
+<h5> New Releases </h5>
+</header>
+<div class="multiple-card-slider">
+<div id="carouselExampleControls3" class="carousel carousel-dark slide" data-ride="carousel">
+  <div class="carousel-inner">
+	
+    <div class="carousel-item active">
+	<div class="cards-wrapper"> 
+	 	<div class="card" style="width: 10rem;" >
+		<div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/885/Mili-Hindi-2022-20221107182816-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+		<div class="card-body">
+    			<h5 class="card-title">Mili</h5>
+  		    </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/517/Dil-From-Ek-Villain-Returns-Hindi-2022-20220711121012-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Ek Villian</h5>
+  		    </div>
 
+		  </div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/949/The-Punjaabban-Song-From-Jugjugg-Jeeyo-Hindi-2022-20220528131001-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Punjaabban</h5>
+  		    </div>
+		  </div> 
 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="http://c.saavncdn.com/224/Atrangi-Re-Hindi-2021-20211208181025-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Atrangi Re</h5>
+  		    </div>
+		  </div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/538/Hurdang-Hindi-2022-20220416071001-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Hurdang</h5>
+  		   </div>
+		</div> 
+    	</div>
+   </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+	 <div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/165/Beast-Hindi-2022-20220504193328-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Beast</h5>
+  		  </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/498/BellBottom-Hindi-2021-20210831120927-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Bell Bottom</h5>
+  		   </div>
+		</div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/799/Jersey-Hindi-2021-20220412145401-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Jersey</h5>
+  		  </div>
+		</div>
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/238/Shershaah-Original-Motion-Picture-Soundtrack--Hindi-2021-20210815181610-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Shershah</h5>
+  		    </div>
+		</div>
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="http://c.saavncdn.com/771/Current-Laga-Re-From-Cirkus-Hindi-2022-20221208113601-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Current Laga</h5>
+  		    </div>
+		</div>
+
+    	</div>
+    </div>
+
+<a class="carousel-control-prev" data-bs-target="#carouselExampleControls3" role="button" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" data-bs-target="#carouselExampleControls3" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>		
+
+<header>
+<h5> Trending Podcasts </h5>
+</header>
+<div class="multiple-card-slider">
+<div id="carouselExampleControls4" class="carousel carousel-dark slide" data-ride="carousel">
+  <div class="carousel-inner">
+	
+    <div class="carousel-item active">
+	<div class="cards-wrapper"> 
+	 	<div class="card" style="width: 10rem;" >
+		<div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/spotlight/spotlight_0.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+		<div class="card-body">
+    			<h5 class="card-title">Kalki</h5>
+  		    </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/spotlight/spotlight_3.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Main Bhai</h5>
+  		    </div>
+
+		  </div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/spotlight/spotlight_4.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Kavi</h5>
+  		    </div>
+		  </div> 
+
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/jaggu%403x.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">JagguTara</h5>
+  		    </div>
+		  </div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/spotlight/spotlight_5.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Film</h5>
+  		   </div>
+		</div> 
+    	</div>
+   </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+	 <div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/spotlight/spotlight_1.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">No Filter</h5>
+  		  </div>
+		</div> 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="http://c.sop.saavncdn.com/Talking-Music-20220608071137-500x500.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Talking Music</h5>
+  		   </div>
+		</div> 
+ 
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://c.saavncdn.com/editorial/logo/TalkingMusicWithAliaSidFawad_82490608_20160318.jpg" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Talking Music</h5>
+  		  </div>
+		</div>
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/kini%403x.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Kini Aur Nani</h5>
+  		    </div>
+		</div>
+		<div class="card" style="width: 10rem;">
+  		  <div class="image wrapper">
+  		  <img src="https://yourcast.jiosaavn.com/static/images/podcast/cricket%403x.png" alt="Card image cap" style="width: 10rem;">
+		 </div>
+  		   <div class="card-body">
+    			<h5 class="card-title">Cricket</h5>
+  		    </div>
+		</div>
+
+    	</div>
+    </div>
+
+<a class="carousel-control-prev" data-bs-target="#carouselExampleControls4" role="button" data-bs-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" data-bs-target="#carouselExampleControls4" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
+</div> <!--Container-->
+
+</div> <!--Content--> 
+</div> <!--Content--> 
+</div> <!--Content--> 
+</div> <!--Content--> 
+</div> <!--Content--> 
+  </body>
+</html>
