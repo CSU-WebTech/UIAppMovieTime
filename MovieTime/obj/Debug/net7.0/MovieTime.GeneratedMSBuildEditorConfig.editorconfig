@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MovieTime
 build_property.RootNamespace = MovieTime
-build_property.ProjectDir = /workspace/UIAppMovieTime/MovieTime/
+build_property.ProjectDir = /home/gitpod/UIAppMovieTime/MovieTime/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /workspace/UIAppMovieTime/MovieTime
+build_property.MSBuildProjectDirectory = /home/gitpod/UIAppMovieTime/MovieTime
 build_property._RazorSourceGeneratorDebug = 
 
-[/workspace/UIAppMovieTime/MovieTime/App.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Pages/Index.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Pages/NasaApod.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Pages/NasaApod.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmFzYUFwb2QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Pages/SearchMovie.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Pages/SearchMovie.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoTW92aWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Pages/ToDo.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Pages/ToDo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9Eby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Pages/Trending.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Pages/Trending.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHJlbmRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Shared/Components/Header.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Shared/Components/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvSGVhZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Shared/Components/NasaImageSection.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Shared/Components/NasaImageSection.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTmFzYUltYWdlU2VjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/_Imports.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/UIAppMovieTime/MovieTime/Shared/MainLayout.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dvhsr93lv6
 
-[/workspace/UIAppMovieTime/MovieTime/Shared/NavMenu.razor]
+[/home/gitpod/UIAppMovieTime/MovieTime/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4plz32vltp
