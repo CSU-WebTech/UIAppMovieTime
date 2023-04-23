@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BPIRSkCSZWIa4EsjTy2nTz6d2FcPvgi3nM7wkxrl3vg=",
+  "Hash": "qQaoW7G8vRQY1cwjoRhwpsJryuJvqjHxFIQtFhxVe8w=",
   "Source": "MovieTime",
   "BasePath": "/",
   "Mode": "Root",
@@ -7240,6 +7240,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/Image3.jpeg"
+    },
+    {
+      "Identity": "/home/gitpod/UIAppMovieTime/MovieTime/wwwroot/Images/TopMovie.jpeg",
+      "SourceId": "MovieTime",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/gitpod/UIAppMovieTime/MovieTime/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "Images/TopMovie.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/TopMovie.jpeg"
     },
     {
       "Identity": "/home/gitpod/UIAppMovieTime/MovieTime/wwwroot/index.html",
