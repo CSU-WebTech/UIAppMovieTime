@@ -6,30 +6,22 @@ public record SearchMovieResponse{
         [JsonPropertyName("Title")]
         public string title {get; init;}
 
-        [JsonPropertyName("Year")]
+        [JsonPropertyName("Released")]
         public string date {get; init;}
         
         [JsonPropertyName("Plot")]
         public string explanation {get; init;}
-        
-        [JsonPropertyName("hdurl")]
-        public string hdurl {get; init;}
 
         [JsonPropertyName("Poster")]
         public string url {get; init;}
 
-        [JsonPropertyName("Rated")]
-        public string rated {get; set;}
-
         [JsonPropertyName("Director")]
         public string director{get; set;}
 
-        [JsonPropertyName("media_type")]
-        public string mediaType {get; init;}
+        [JsonPropertyName("Actors")]
+        public string actors{get; set;}
+
         
-        [JsonPropertyName("service_version")]
-        public string serviceVersion {get; init;}
         
-        [JsonPropertyName("copyright")]
-        public string copyright {get; init;}
+        
 }

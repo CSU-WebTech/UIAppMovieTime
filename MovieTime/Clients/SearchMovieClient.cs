@@ -10,10 +10,12 @@ public class SearchMovieClient{
     }
 public async Task<SearchMovieResponse> GetMovie(string title){
     var url = "https://www.omdbapi.com/?apikey=6a1d867b";
-
-if(title != null){
- url += "&t=" + title;
-}
+    if(title != null){
+    url += "&t=" + title;
+    
+    }
+    
     return await _client.GetFromJsonAsync<SearchMovieResponse>(url);
+    
 }
 }

@@ -10,14 +10,14 @@
     </div>
 </div>
 
-<h1>Find Perfect Movie for evening....</h1>
+<h1>Find Perfect Show or Movie for Evening....</h1>
 <label for="id">Movie Title:</label>
 <input type="text" id="id" name="id" @bind="Addtitle">
 <button @onclick= "title">Search</button>
 <button @onclick= "OnInitializeAsync">Reset</button>
-<Header title="@searchMovieResponse.title" subTitle="@searchMovieResponse.date" description="@searchMovieResponse.explanation" director="@searchMovieResponse.director" rated="@searchMovieResponse.rated"/>
+
 <br>
-<SearchMovieImageSection imgUrl="@searchMovieResponse.url" hdUrl="@searchMovieResponse.hdurl" copyright="@searchMovieResponse.copyright"/>
+<SearchMovieImageSection  title="@searchMovieResponse.title" date="@searchMovieResponse.date" explanation="@searchMovieResponse.explanation" director="@searchMovieResponse.director" actors="@searchMovieResponse.actors" imgUrl="@searchMovieResponse.url"/>
 
 @code {
      private SearchMovieResponse? searchMovieResponse = null;

@@ -1878,11 +1878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspace/UIAppMovieTime/MovieTime/MovieTime.csproj",
+      "projectUniqueName": "/home/gitpod/UIAppMovieTime/MovieTime/MovieTime.csproj",
       "projectName": "MovieTime",
-      "projectPath": "/workspace/UIAppMovieTime/MovieTime/MovieTime.csproj",
+      "projectPath": "/home/gitpod/UIAppMovieTime/MovieTime/MovieTime.csproj",
       "packagesPath": "/home/gitpod/.nuget/packages/",
-      "outputPath": "/workspace/UIAppMovieTime/MovieTime/obj/",
+      "outputPath": "/home/gitpod/UIAppMovieTime/MovieTime/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gitpod/.nuget/NuGet/NuGet.Config"

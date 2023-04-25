@@ -1,17 +1,33 @@
-<img src="@imgUrl" alt="Search Movie" />
-<p><a href="@hdUrl">HD Image</a></p>
-<p>Copyrights by:@copyright</p>
+<img src="@imgUrl"  />
+<p>Title :@title</p>
+<p>Release Date:@date</p>
+<p>Plot :@explanation</p>
+<p>Director:@director</p>
+<p>Actors :@actors</p>
+
 
 @code{
 
  [Parameter]
     public string imgUrl {get;set;}
+  
+ [Parameter]
+    public string title {get;set;}
 
-     [Parameter]
-    public string hdUrl {get;set;}
+ [Parameter]
+    public string date {get;set;}
 
-     [Parameter]
+ [Parameter]
+    public string explanation {get;set;}
+
+ [Parameter]
+    public string director {get;set;}
+
+ [Parameter]
     public string copyright {get;set;}
+
+ [Parameter]
+    public string actors {get;set;}
 
 
 }
