@@ -9,7 +9,7 @@ public class NasaClient{
         _client=client;
     }
 public async Task<NasaResponse> GetNasa(string date){
-    var url = "https://www.omdbapi.com/?apikey=5e247ff4";
+    var url = "https://www.omdbapi.com/?apikey=6a1d867b";
 
 if(date != null){
  url += "&t=" + date;

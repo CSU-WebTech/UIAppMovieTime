@@ -1,7 +1,37 @@
 ﻿@page "/searchmovie"
+@using MovieTime.Models;
+@using MovieTime.Clients;
+@inject SearchMovieClient SearchMovieClient;
+@using MovieTime.Shared.Components;
 
+<div id="content">
+    <div class="container p-5"> 
+        <PageTitle>Search Movie</PageTitle>
+    </div>
+</div>
 
-<PageTitle>Search Movie</PageTitle>
+<Header title="@searchMovieResponse.title" subTitle="@searchMovieResponse.date" description="@searchMovieResponse.explanation"/>
+<br>
+<SearchMovieImageSection imgUrl="@searchMovieResponse.url" hdUrl="@searchMovieResponse.hdurl" copyright="@searchMovieResponse.copyright"/>
+
+<input placeholder="Enter Title of Movie" @bind="Addtitle"/>
+<button @onclick= "title">ADD</button>
+
+@code {
+     private SearchMovieResponse? searchMovieResponse = null;
+     
+     protected override async Task OnInitializedAsync(){
+        searchMovieResponse= await SearchMovieClient.GetMovie(null);
+     }
+
+private string? Addtitle;
+async Task title(){
+    if(!string.IsNullOrWhiteSpace(Addtitle)){
+        searchMovieResponse= await SearchMovieClient.GetMovie(Addtitle);
+    }
+}
+
+}
 
 
 
