@@ -10,17 +10,23 @@
     </div>
 </div>
 
-<Header title="@searchMovieResponse.title" subTitle="@searchMovieResponse.date" description="@searchMovieResponse.explanation"/>
+<h1>Find Perfect Movie for evening....</h1>
+<label for="id">Movie Title:</label>
+<input type="text" id="id" name="id" @bind="Addtitle">
+<button @onclick= "title">Search</button>
+<button @onclick= "OnInitializeAsync">Reset</button>
+<Header title="@searchMovieResponse.title" subTitle="@searchMovieResponse.date" description="@searchMovieResponse.explanation" director="@searchMovieResponse.director" rated="@searchMovieResponse.rated"/>
 <br>
 <SearchMovieImageSection imgUrl="@searchMovieResponse.url" hdUrl="@searchMovieResponse.hdurl" copyright="@searchMovieResponse.copyright"/>
-
-<input placeholder="Enter Title of Movie" @bind="Addtitle"/>
-<button @onclick= "title">ADD</button>
 
 @code {
      private SearchMovieResponse? searchMovieResponse = null;
      
      protected override async Task OnInitializedAsync(){
+        searchMovieResponse= await SearchMovieClient.GetMovie(null);
+     }
+      protected  async Task OnInitializeAsync(){
+        Addtitle = null;
         searchMovieResponse= await SearchMovieClient.GetMovie(null);
      }
 

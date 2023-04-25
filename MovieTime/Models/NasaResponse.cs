@@ -11,6 +11,12 @@ public record NasaResponse{
         
         [JsonPropertyName("Plot")]
         public string explanation {get; init;}
+
+        [JsonPropertyName("Rated")]
+        public string rated {get; set;}
+
+        [JsonPropertyName("Director")]
+        public string director{get; set;}
         
         [JsonPropertyName("hdurl")]
         public string hdurl {get; init;}

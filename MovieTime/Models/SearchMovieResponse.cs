@@ -17,7 +17,13 @@ public record SearchMovieResponse{
 
         [JsonPropertyName("Poster")]
         public string url {get; init;}
-        
+
+        [JsonPropertyName("Rated")]
+        public string rated {get; set;}
+
+        [JsonPropertyName("Director")]
+        public string director{get; set;}
+
         [JsonPropertyName("media_type")]
         public string mediaType {get; init;}
         
