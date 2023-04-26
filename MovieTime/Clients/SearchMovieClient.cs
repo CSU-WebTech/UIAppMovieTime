@@ -14,8 +14,13 @@ public async Task<SearchMovieResponse> GetMovie(string title){
     url += "&s=" + title;
     
     }
-    
+    else{
+       url += "&s=" + "Home+Alone"; 
+    }
+    //public SearchMovieResponse? response=await _client.GetFromJsonAsync<SearchMovieResponse>(url);
+    Console.WriteLine(url);
     return await _client.GetFromJsonAsync<SearchMovieResponse>(url);
+    //return response;
     
 }
 }

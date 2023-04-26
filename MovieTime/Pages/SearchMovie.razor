@@ -18,16 +18,17 @@
 
 
 
-@foreach(var s in response.search.searchmovieresponse){
+@foreach(var t in response.Search){
+
      <div>
+     
        
-            <span class="d-inline-block">Title : @s.title</span>
-            <span class="d-inline-block">ReleaseDate : @s.date</span>
-            <span class="d-inline-block">Plot: @s.explanation</span>
-            <span class="d-inline-block">Director: @s.director</span>
-            <span class="d-inline-block">Actors: @s.actors</span>
-            <span class="d-inline-block">@s.url</span>
-        
+            <span class="d-inline-block">Title : @t.Title</span>
+            <span class="d-inline-block">ReleaseDate : @t.Year</span>
+            <img src="@t.Poster"  />
+            <span class="d-inline-block">Plot: @t.Poster</span>
+           
+     
     </div>
 }
 
@@ -37,10 +38,11 @@
      protected override async Task OnInitializedAsync(){
         searchMovieResponse= await SearchMovieClient.GetMovie(null);
         response=searchMovieResponse;
-     }
+     } 
       protected  async Task OnInitializeAsync(){
         Addtitle = null;
         searchMovieResponse= await SearchMovieClient.GetMovie(null);
+        
         response=searchMovieResponse;
      }
 
