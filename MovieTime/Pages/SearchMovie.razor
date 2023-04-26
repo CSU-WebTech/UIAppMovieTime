@@ -3,7 +3,7 @@
 @using MovieTime.Clients;
 @inject SearchMovieClient SearchMovieClient;
 @using MovieTime.Shared.Components;
-
+<head><link href="/css/stylesheet.css" rel="stylesheet"/></head>
 <div id="content">
     <div class="container p-5"> 
         <PageTitle>Search Movie</PageTitle>
@@ -16,17 +16,17 @@
 <button @onclick= "title">Search</button>
 <button @onclick= "OnInitializeAsync">Reset</button>
 
-
-
-@foreach(var t in response.Search){
-
-     <div>
-            <p>Title: @t.Title</p>
-            <p>Release Year: @t.Year </p>
+<div class="grid-container">
+    @foreach (var t in response.Search)
+    {
+        <div class="grid-item">
+            <img src="@t.Poster"/>
+            <h3>Title: @t.Title</h3>
+            <p>Release Year: @t.Year</p>
             <p>Type: @t.Type</p>
-            <img src="@t.Poster"  />     
-    </div>
-}
+        </div>
+    }
+</div>
 
 @code {
      private SearchMovieResponse? searchMovieResponse = null;
