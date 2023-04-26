@@ -21,14 +21,10 @@
 @foreach(var t in response.Search){
 
      <div>
-     
-       
-            <span class="d-inline-block">Title : @t.Title</span>
-            <span class="d-inline-block">ReleaseDate : @t.Year</span>
-            <img src="@t.Poster"  />
-            <span class="d-inline-block">Plot: @t.Poster</span>
-           
-     
+            <p>Title: @t.Title</p>
+            <p>Release Year: @t.Year </p>
+            <p>Type: @t.Type</p>
+            <img src="@t.Poster"  />     
     </div>
 }
 
