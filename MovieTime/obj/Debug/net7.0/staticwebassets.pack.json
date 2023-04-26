@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets/Images/Image2.jpeg"
     },
     {
-      "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/Images/Image3.jpeg",
-      "PackagePath": "staticwebassets/Images/Image3.jpeg"
-    },
-    {
       "Id": "/workspace/UIAppMovieTime/MovieTime/wwwroot/Images/TopMovie.jpeg",
       "PackagePath": "staticwebassets/Images/TopMovie.jpeg"
     },
