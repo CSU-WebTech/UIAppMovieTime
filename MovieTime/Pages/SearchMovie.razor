@@ -16,24 +16,39 @@
 <button @onclick= "title">Search</button>
 <button @onclick= "OnInitializeAsync">Reset</button>
 
-<br>
-<SearchMovieImageSection  title="@searchMovieResponse.title" date="@searchMovieResponse.date" explanation="@searchMovieResponse.explanation" director="@searchMovieResponse.director" actors="@searchMovieResponse.actors" imgUrl="@searchMovieResponse.url"/>
+
+
+@foreach(var s in response.search.searchmovieresponse){
+     <div>
+       
+            <span class="d-inline-block">Title : @s.title</span>
+            <span class="d-inline-block">ReleaseDate : @s.date</span>
+            <span class="d-inline-block">Plot: @s.explanation</span>
+            <span class="d-inline-block">Director: @s.director</span>
+            <span class="d-inline-block">Actors: @s.actors</span>
+            <span class="d-inline-block">@s.url</span>
+        
+    </div>
+}
 
 @code {
      private SearchMovieResponse? searchMovieResponse = null;
-     
+     public SearchMovieResponse response = null;
      protected override async Task OnInitializedAsync(){
         searchMovieResponse= await SearchMovieClient.GetMovie(null);
+        response=searchMovieResponse;
      }
       protected  async Task OnInitializeAsync(){
         Addtitle = null;
         searchMovieResponse= await SearchMovieClient.GetMovie(null);
+        response=searchMovieResponse;
      }
 
 private string? Addtitle;
 async Task title(){
     if(!string.IsNullOrWhiteSpace(Addtitle)){
         searchMovieResponse= await SearchMovieClient.GetMovie(Addtitle);
+        response=searchMovieResponse;
     }
 }
 

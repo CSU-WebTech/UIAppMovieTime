@@ -3,6 +3,12 @@ using System.Text.Json.Serialization;
 namespace MovieTime.Models;
 
 public record SearchMovieResponse{
+
+        [JsonPropertyName("Search")]
+        public SearchMovieFinal search {get; init;}
+}
+
+public class Searching{
         [JsonPropertyName("Title")]
         public string title {get; init;}
 
@@ -19,9 +25,10 @@ public record SearchMovieResponse{
         public string director{get; set;}
 
         [JsonPropertyName("Actors")]
-        public string actors{get; set;}
+        public string actors{get; set;}      
+        
+}
 
-        
-        
-        
+public class SearchMovieFinal{
+        public List<Searching> searchmovieresponse{get;set;}
 }
