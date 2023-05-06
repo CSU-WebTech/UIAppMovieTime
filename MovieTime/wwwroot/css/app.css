@@ -10887,6 +10887,7 @@ header.masthead .masthead-content {
 }
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
+  outline:none;
 }
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
@@ -10929,6 +10930,7 @@ header.masthead .bg-circle-4 {
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
+    outline: none;
   }
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
