@@ -20,10 +20,12 @@
     @foreach (var t in response.Search)
     {
         <div class="grid-item">
-            <img src="@t.Poster"/>
-            <h5>Title: @t.Title </h5>
-            <p>Release Year: @t.Year</p>
-            <p>Type: @t.Type</p>
+            <img class="poster" src="@t.Poster"/>
+        <div>
+            <h5 class="title">Title: @t.Title </h5>
+            <p class="year">Release Year: @t.Year</p>
+            <p class="type">Type: @t.Type</p>
+        </div>
         </div>
     }
 </div>
