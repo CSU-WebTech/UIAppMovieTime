@@ -216,14 +216,16 @@ a.article:hover {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
+   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-gap: 20px; 
+    grid-template-rows:  repeat(10, 150px);
 }
 
 .grid-item {
     border: 1px solid #ddd;
     padding: 10px;
-    text-align: center;
+    display:flex;
+    /*text-align: center; */
 }
 
 .grid-item img {
@@ -232,12 +234,14 @@ a.article:hover {
     margin-bottom: 10px;
 }
 
-.grid-item h3 {
+.grid-item h5 {
     margin-bottom: 5px;
+    /*text-align:start;*/
 }
 
 .grid-item p {
     margin: 0;
+    /*text-align: right;*/
 }
 
 .grid-item a {
