@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hercwVRZ64MjjgqozF8LiFP90mFhDRBpYf66kD0BHqw=",
+  "Hash": "vaZtyL3duT62/RUYt5zqoaAbA+h+i5rBoIYAJiXdZnA=",
   "Source": "MovieTime",
   "BasePath": "/",
   "Mode": "Root",
@@ -7257,23 +7257,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
-    },
-    {
-      "Identity": "/workspace/UIAppMovieTime/MovieTime/wwwroot/mytest.html",
-      "SourceId": "MovieTime",
-      "SourceType": "Discovered",
-      "ContentRoot": "/workspace/UIAppMovieTime/MovieTime/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "mytest.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/mytest.html"
     }
   ]
 }
